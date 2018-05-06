@@ -1,3 +1,5 @@
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 /**
  * This is a template for the class corresponding to your original
  * advanced heuristic.  This class is an implementation of the
@@ -21,9 +23,7 @@ public class AdvancedHeuristic implements Heuristic {
      * given state.
      */
     public int getValue(State state) {
-
-	// your code here
-
+        throw new NotImplementedException();
     }
 
 }

@@ -1,3 +1,5 @@
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 /**
  * This is a template for the class corresponding to the blocking
  * heuristic.  This heuristic returns zero for goal states, and
@@ -23,9 +25,7 @@ public class BlockingHeuristic implements Heuristic {
      * given state.
      */
     public int getValue(State state) {
-
-	// your code here
-
+	    throw new NotImplementedException();
     }
 
 }

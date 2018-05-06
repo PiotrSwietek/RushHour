@@ -39,8 +39,8 @@ public class RushHour {
 
 	    Heuristic[] heuristics = {   // these are the heuristics to be used
 		new ZeroHeuristic(puzzles[i]),
-		new BlockingHeuristic(puzzles[i]),
-		new AdvancedHeuristic(puzzles[i]),
+//TODO		new BlockingHeuristic(puzzles[i]),
+//TODO		new AdvancedHeuristic(puzzles[i]),
 	    };
 
 	    if (i == 0) {
